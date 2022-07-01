@@ -1,4 +1,4 @@
-package Image_Download
+package imgDownload
 
 import (
 	"fmt"

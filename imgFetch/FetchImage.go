@@ -1,4 +1,4 @@
-package Image_Fetch
+package imgFetch
 
 import (
 	"io/ioutil"
@@ -6,7 +6,7 @@ import (
 	"net/http"
 	"strings"
 
-	"Download_Image/Image_Download"
+	"Download_Image/imgDownload"
 
 	"golang.org/x/net/html"
 )
@@ -51,6 +51,6 @@ func ImageFetch(url string) string {
 	f(doc)
 
 	images := result
-	message := Image_Download.ImageDownload(images)
+	message := imgDownload.ImageDownload(images)
 	return message
 }
