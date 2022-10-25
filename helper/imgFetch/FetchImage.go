@@ -6,7 +6,7 @@ import (
 	"net/http"
 	"strings"
 
-	"Download_Image/imgDownload"
+	"Download_Image/helper/imgDownload"
 
 	"golang.org/x/net/html"
 )

@@ -2,7 +2,7 @@ package main
 
 import(
 	"fmt"
-	"Download_Image/imgFetch"
+	"Download_Image/helper/imgFetch"
 )
 
 func main() {

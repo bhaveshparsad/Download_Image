@@ -3,7 +3,7 @@ package main
 import (
 	"testing"
 
-	"Download_Image/imgFetch"
+	"Download_Image/helper/imgFetch"
 )
 
 
